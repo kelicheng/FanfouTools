@@ -52,13 +52,15 @@ def check(client, friends, days):
 		except urllib2.URLError:
 			continue
 		except KeyError:
+			found_ids.append(f)
 			print "[User " + f + " does not have any status.]"
+
 
 
 	print "[User(s) not found: ]"
 	for u in unfound: print u
 
-	print "[Users not updated for " + str(days) + " days: ]"
+	print "[Users not updated for " + str(days) + " days/ has no status: ]"
 	for f in found_names: print f
 	confirm = raw_input("Are you sure to remove? (Y/N) ").upper()
 	if confirm == "Y":

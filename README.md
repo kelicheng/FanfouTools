@@ -3,8 +3,9 @@
 ### 饭否小工具
 
 使用方法：
+0. 安装所需package： fanfou， json， urllib2
 1. 找到需要的程序，比如 who_unfo_me.py
-2. 修改程序最下方用户ID和密码，比如“～fefGUGULng”
+2. 修改程序最下方用户ID和密码，比如“～fefGUGULng”或者注册邮箱
 3. 保存，运行。
 
 
